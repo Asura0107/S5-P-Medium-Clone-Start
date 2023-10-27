@@ -210,4 +210,5 @@ aside h3 {
   border-bottom: 2px solid #191919;
   width: 100%;
   background-color: #ffc017;
+  transition: background-color 300ms linear;
 }
