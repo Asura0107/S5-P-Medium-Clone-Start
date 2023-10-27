@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #ffc017;
+  color: #191919;
+  height: 100%;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+}
+h1 {
+  font-family: "Spectral", serif;
+}
+.startnav {
+  display: flex;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.navbassa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trend {
+  display: flex;
+  flex-direction: row;
+}
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+.introduction {
+  display: flex;
+  align-items: center;
+}
+.articleaside {
+  display: flex;
+  flex-direction: column;
+}
