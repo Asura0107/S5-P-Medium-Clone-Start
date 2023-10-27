@@ -32,14 +32,21 @@ section {
   padding: 40px 120px;
 }
 .card {
-  max-width: 25%;
+  flex-basis: 28%;
+  display: flex;
 }
-.articles {
-  justify-content: flex-start;
-  /* align-items: ; */
-  column-gap: 120px;
-  row-gap: 40px;
+.intern {
+  display: flex;
+  flex-direction: column;
 }
+.num span {
+  color: #ddd9d9;
+  font-size: 40px;
+}
+.num {
+  margin: 0 18px;
+}
+
 .tidy {
   display: flex;
 }
@@ -61,10 +68,19 @@ aside {
   max-width: 400px;
   flex-direction: column;
   overflow: hidden;
+  position: sticky;
+  top: 80px;
+  margin-left: 20px;
 
   /* justify-content: flex-end; */
   /* align-items: ; */
 }
+/* .num {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
 aside ul {
   list-style-type: none;
   display: flex;
@@ -85,6 +101,8 @@ aside hr {
 .bottomhalf {
   padding: 40px 120px;
   justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
 }
 .svginiziale {
   position: absolute;
@@ -136,6 +154,9 @@ aside hr {
 .articles {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  row-gap: 40px;
 }
 .introduction {
   display: flex;
@@ -152,9 +173,7 @@ aside hr {
   display: flex;
   flex-direction: column;
 }
-.bottomhalf {
-  display: flex;
-}
+
 .singleArticle {
   display: flex;
   margin-bottom: 60px;
@@ -211,4 +230,8 @@ aside h3 {
   width: 100%;
   background-color: #ffc017;
   transition: background-color 300ms linear;
+  animation: anim 300ms;
 }
+/* @keyframes anim{
+
+} */
