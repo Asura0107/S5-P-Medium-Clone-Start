@@ -204,3 +204,10 @@ aside h3 {
   font-weight: 700;
   margin-bottom: 20px;
 }
+.nav {
+  position: fixed;
+  z-index: 10;
+  border-bottom: 2px solid #191919;
+  width: 100%;
+  background-color: #ffc017;
+}
